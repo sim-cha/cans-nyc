@@ -159,16 +159,8 @@
 <!-- EMAIL ALERTS -->
 <div class="alerts" id="alerts">
   <p class="eyebrow">Don't keep checking this</p>
-  <h3>Tell me when NYC's containerization rules change.</h3>
-  <p class="sub">Get an email when there's actually something you need to know - deadlines, enforcement changes, availability problems. We hate spam as much as you do. If nothing changes, we won't email you.</p>
-  <form class="alertform" action="https://formsubmit.co/cans.nyc@axfax.com" method="post">
-    <input type="hidden" name="_subject" value="Cans.NYC alert signup">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-    <input type="email" name="email" placeholder="you@example.com" required aria-label="Email address">
-    <button type="submit">Notify me</button>
-    <div class="fine">Major updates only. Unsubscribe anytime by replying to any alert.</div>
-  </form>
+  <div class="ml-embedded" data-form="jXsSDw"></div>
+  <p class="fine" style="font-size:13px;color:var(--ink-faint);margin-top:10px">We hate spam as much as you do. If nothing changes, we won't email you. Unsubscribe anytime.</p>
 </div>
 
 <!-- DEEPER GUIDES -->
@@ -229,5 +221,14 @@ document.querySelectorAll('.selector button').forEach(function(b){
   });
 });
 </script>
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '2626783');
+</script>
+<!-- End MailerLite Universal -->
 </body>
 </html>

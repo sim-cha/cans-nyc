@@ -183,3 +183,14 @@ table.rules td{padding:10px;border-bottom:1px solid var(--line);vertical-align:t
   .selector button{flex:1;padding:12px 10px;font-size:14px}
   .panelwrap{padding:16px}
 }
+
+/* MailerLite embed overrides - keep the utility look */
+.alerts .ml-form-embedWrapper, .alerts .ml-embedded{background:transparent !important}
+.alerts .ml-form-embedWrapper .ml-form-embedBody{padding:0 !important;background:transparent !important}
+.alerts .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4{font-family:var(--sans) !important;font-size:clamp(20px,3.4vw,26px) !important;font-weight:800 !important;letter-spacing:-.02em !important;color:var(--ink) !important}
+.alerts .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p{font-family:var(--sans) !important;font-size:15px !important;color:var(--ink-soft) !important}
+.alerts .ml-form-embedWrapper .ml-form-embedBody .ml-form-formContent .form-control{border:1.5px solid var(--ink) !important;border-radius:6px !important;font-family:var(--sans) !important;font-size:15px !important;padding:12px 14px !important}
+.alerts .ml-form-embedWrapper .ml-form-embedBody .primary{font-family:var(--sans) !important;background:var(--ink) !important;border-radius:6px !important;font-weight:700 !important;font-size:15px !important}
+.alerts .ml-form-embedWrapper .ml-form-embedBody .primary:hover{background:var(--green-deep) !important}
+.alerts .ml-form-successBody .ml-form-successContent h4{font-family:var(--sans) !important;color:var(--green-deep) !important;font-weight:800 !important}
+.alerts .ml-form-successBody .ml-form-successContent p{font-family:var(--sans) !important;color:var(--ink-soft) !important}
